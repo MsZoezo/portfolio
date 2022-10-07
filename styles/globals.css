@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --bg-colour: #7492B1;
+  --shadow-colour: #8CADCE;
+  --lighter-shadow-colour: #b4d2f0;
+  --text-bg: rgba(255, 255, 255, 0.699);
+  --text-colour: #9ab4cf;
+  --hightlight: #9ab4cf;
+}
+
+.card {
+  border-radius: 1rem;
+  background-color: var(--bg-colour);
+  box-shadow: 1rem 1rem var(--shadow-colour);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.75rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
