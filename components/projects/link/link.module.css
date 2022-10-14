@@ -1,0 +1,12 @@
+.link {
+    width: 3.2rem;
+    height: 3.2rem;
+    margin: 0.5rem;
+
+    display: block;
+}
+
+.linkImg {
+    width: 100%;
+    height: 100%;
+}
