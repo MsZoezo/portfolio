@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import About from '../components/about/about'
+import Contact from '../components/contact/contact'
 import Header from '../components/header/header'
 import Navigation from '../components/navigation/navigation'
 import Projects from '../components/projects/projects'
@@ -22,6 +23,7 @@ export default function Home({ ProjectsData }) {
       <About />
 
       <Projects projects={ProjectsData} />
+      <Contact />
     </>
   )
 }
