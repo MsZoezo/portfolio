@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Header from '../components/header/header'
 import Navigation from '../components/navigation/navigation'
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       </Head>
 
       <Navigation href="#"/>
+      <Header />
     </>
   )
 }

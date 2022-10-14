@@ -23,7 +23,7 @@ html {
   --bg-colour: #7492B1;
   --shadow-colour: #8CADCE;
   --lighter-shadow-colour: #b4d2f0;
-  --text-bg: rgba(255, 255, 255, 0.699);
+  --text-bg-colour: rgba(255, 255, 255, 0.699);
   --text-colour: #9ab4cf;
   --hightlight: #9ab4cf;
 }

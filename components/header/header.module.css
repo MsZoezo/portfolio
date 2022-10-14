@@ -1,0 +1,36 @@
+.header {
+    width: 100vw;
+    height: fit-content;
+    min-height: calc(100vh - 8.5rem);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    font-size: clamp(7.5rem, 10vw, 20rem);
+
+    padding: 0;
+    margin: 2rem;
+
+    text-align: center;
+
+    color: var(--bg-colour);
+
+    text-shadow: clamp(0.15rem, 0.8vw, 1rem) clamp(0.15rem, 0.8vw, 1rem) var(--shadow-colour), clamp(0.3rem, 1.6vw, 2rem) clamp(0.3rem, 1.6vw, 2rem) var(--lighter-shadow-colour);
+}
+
+.title {
+    font-size: clamp(35px, 4vw, 75px);
+
+    padding: 0;
+    margin: 0 2rem;
+
+    text-align: center;
+
+    color: var(--bg-colour);
+
+    text-shadow: clamp(0.15rem, 0.2vw, 0.5rem) clamp(0.15rem, 0.2vw, 0.35rem) var(--shadow-colour)
+}
