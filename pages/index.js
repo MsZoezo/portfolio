@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Navigation from '../components/navigation/navigation'
 
 export default function Home() {
   return (
@@ -8,6 +9,8 @@ export default function Home() {
         <meta name="description" content="Zoey Bosman's portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Navigation href="#"/>
     </>
   )
 }
