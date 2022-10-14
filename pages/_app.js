@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import Background from './background/background';
+import Background from '../components/background/background';
 
 function MyApp({ Component, pageProps }) {
   return(

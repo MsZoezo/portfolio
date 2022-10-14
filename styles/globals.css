@@ -23,7 +23,7 @@ html {
   --bg-colour: #7492B1;
   --shadow-colour: #8CADCE;
   --lighter-shadow-colour: #b4d2f0;
-  --text-bg-colour: rgba(255, 255, 255, 0.699);
+  --text-bg-colour: rgba(255, 255, 255, 0.788);
   --text-colour: #9ab4cf;
   --hightlight: #9ab4cf;
 }
@@ -42,13 +42,5 @@ body {
 }
 
 h1 {
-  font-size: 3rem;
-}
-
-h2 {
-  font-size: 2.75rem;
-}
-
-h3 {
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
