@@ -4,7 +4,11 @@ import Header from '../components/header/header'
 import Navigation from '../components/navigation/navigation'
 import Projects from '../components/projects/projects'
 
-export default function Home() {
+import { getAllProjects } from '../data/projects/lib'
+
+export default function Home({ ProjectsData }) {
+  console.log(ProjectsData);
+
   return (
     <>
       <Head>
@@ -16,7 +20,17 @@ export default function Home() {
       <Navigation href="#"/>
       <Header />
       <About />
-      <Projects />
+
+      <Projects projects={ProjectsData} />
     </>
   )
+}
+
+export async function getStaticProps() {
+  const ProjectsData = getAllProjects();
+  return {
+      props: {
+          ProjectsData,
+      },
+  };
 }

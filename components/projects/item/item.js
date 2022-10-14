@@ -1,6 +1,7 @@
+import Link from "../link/link";
 import styles from "./item.module.css";
 
-export default function Item({ leftie, tags, title, text, links}) {
+export default function Item({ leftie, tags, title, preview, links}) {
     return(
         <div className={styles.item + " card " + (leftie ? styles.leftie : styles.rightie)}>
             <div className={styles.tags}>
@@ -8,10 +9,12 @@ export default function Item({ leftie, tags, title, text, links}) {
             </div>
 
             <h2 className={styles.title}>{title}</h2>
-            <p className={styles.text}>{text}</p>
+            <div className={styles.text} dangerouslySetInnerHTML={{__html: preview}}></div>
 
             <div className={styles.links}>
-                {links}
+                {links.map(({href, icon, title}) => (
+                    <Link href={href} icon={icon} title={title} alt={title}/>
+                ))}
             </div>
         </div>
     );
